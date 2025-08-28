@@ -42,7 +42,7 @@ st.markdown(
         /* Title */
         h1 {{
             text-align: center;
-            color: white;
+            color: white !important;
         }}
         /* Cards */
         .app-card {{
@@ -73,7 +73,7 @@ st.markdown(
         }}
 
         .app-link:hover {{
-            text-decoration: none;  /* 👈 this removes the underline */
+            text-decoration: none !important;  /* 👈 this removes the underline */
             }}
         /* Descriptions */
         .desc {{
@@ -149,3 +149,4 @@ for app, col in zip(apps, cols):
             """,
             unsafe_allow_html=True,
         )
+
