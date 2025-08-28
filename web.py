@@ -127,8 +127,8 @@ apps = [
         "desc": "Interactive chatbot to answer compliance and regulatory queries."
     },
     {
-        "name": "📈 SOC Dashboard",
-        "url": "https://project-app.streamlit.app/",
+        "name": "📈 SOCR",
+        "url": "https://ghq-se-10348-micscontrolmonitoring-04-we-dev.azurewebsites.net/",
         "desc": "Security Operations Center dashboard for monitoring and insights."
     }
 ]
@@ -149,5 +149,6 @@ for app, col in zip(apps, cols):
             """,
             unsafe_allow_html=True,
         )
+
 
 
