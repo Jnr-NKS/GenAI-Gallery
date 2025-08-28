@@ -66,7 +66,7 @@ st.markdown(
             box-shadow: 4px 4px 12px rgba(0,0,0,0.8);
         }}
         .app-link {{
-            text-decoration: none;
+            text-decoration: none !important;
             color: inherit;
             font-size: 18px;
             font-weight: 600;
@@ -99,7 +99,7 @@ st.markdown(
 #     unsafe_allow_html=True,
 # )
 
-st.markdown("<h1>Gen AI Gallery</h1>", unsafe_allow_html=True)
+st.markdown("<h1>GenAI Gallery</h1>", unsafe_allow_html=True)
 st.markdown("---")
 
 # ------------------------------
@@ -149,4 +149,5 @@ for app, col in zip(apps, cols):
             """,
             unsafe_allow_html=True,
         )
+
 
